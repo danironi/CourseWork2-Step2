@@ -101,6 +101,7 @@ public class DealershipTest {
                         break;
 
                     case 5:
+
                         if(dealership.getCar()!=null && dealership.isCarRegNo()){
                             dealership.displayAll();
                         }
@@ -121,6 +122,7 @@ public class DealershipTest {
                         }
 
                     default:
+
                         System.out.println("If you wish to continue, then enter the right menu option. ");
                 }
             }
